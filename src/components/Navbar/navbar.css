@@ -1,0 +1,136 @@
+.navbar {
+    position: fixed;
+    width: 17%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding-top: 20px;
+    background-color: #23222d;
+    color: #fff
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 140px;
+    padding: 0 5px
+}
+
+.heading {
+    padding: 0 5px;
+    color: #736df8;
+    font-weight: bold;
+}
+
+.navItems {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .navItemsTop, .navItemsBottom {
+    float: left;
+} */
+
+.navItemsTop ul {
+    list-style: none;
+    float: left;
+    width: 100%;
+    padding: 0px;
+    cursor: pointer;
+}
+
+.navItemsBottom {
+    margin: 50px 0px
+}
+
+.navItemsBottom ul {
+    list-style: none;
+    float: left;
+    width: 100%;
+    padding: 0px;
+    cursor: pointer;
+    margin-top: -100px;
+}
+
+.navItemsTop li {
+    font-size: 18px;
+    padding: 20px 40px;
+    text-align: left;
+    color: #9e9ea1;
+    font-family: "Open Sans";
+}
+
+.navItemsBottom li {
+    font-size: 16px;
+    padding: 16px 40px;
+    text-align: left;
+    color: #9e9ea1;
+    font-family: "Open Sans";
+}
+
+.otherIcons {
+    margin-right: 12px;
+    color: #9e9ea1;
+}
+
+.exchange {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+    background-color: #1c1922;
+}
+
+.exchangeIcon {
+    margin-top: 3px;
+    margin-right: 12px;
+    color: #736df8
+}
+
+.exc {
+    color: #736df8
+}
+
+.highlighter {
+    height: 28px;
+    width: 5px;
+    margin-left: -38px;
+    margin-right: 30px;
+    background: #736df8;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.exchange:hover {
+    background-color: #4a4a4e;
+    transition: 0.3s ease-in-out;
+}
+
+.loginOld {
+    background-color: #2e2d38;
+    cursor: pointer;
+}
+
+.loginOld:hover {
+    background-color: #2e2d38;
+    color: #fff
+}
+
+li:hover {
+    background-color: #504f56;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+.navItemsBottom li:hover {
+    background-color: #2e2d38;
+    color: #fff
+}
+

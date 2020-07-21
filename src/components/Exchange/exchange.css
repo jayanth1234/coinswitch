@@ -1,0 +1,458 @@
+.exchangeContainer {
+    width: 83%;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 0px 100px
+}
+
+.card {
+    height: auto;
+    width: 100%;
+    margin-top: 30px;
+    padding: 30px 0px 60px;
+    background-color: transparent;
+    border-radius: 10px;
+    position: relative;
+    background-color: #2a2b37;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.inputRows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+
+.formBottom {
+    margin-top: 40px;
+    margin-right: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.textField {
+    width: 340px;
+    margin-top: -100px;
+    font-weight: 500
+}
+
+.scanner {
+    width: 30px;
+    height: 30px;
+    margin-top: 14px;
+    margin-right: 10px;
+}
+
+.input {
+    width: 32%;
+    border-radius: 5px;
+    border: 0px solid #fff;
+    background-color: #fff;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.iconRenew {
+    color: #fff;
+    margin: 50px 60px 0px 
+}
+
+.iconArrow {
+    color: #fff;
+    margin: 40px 20px 0px;
+}
+
+.inputField {
+    width: 60%;
+    background-color: #fff;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-family: 'Open Sans',sans-serif!important;
+    font-weight: 700;
+    padding: 0px 10px;
+    font-size: 18px;
+    color: #353b48;
+    border: 0;
+}
+
+.textBit {
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.firstInput {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    justify-content: center;
+    align-content: center;
+}
+
+.firstInput2 {
+    display: flex;
+    flex-direction: column;
+    width: 38%;
+    justify-content: center;
+    align-content: center;
+}
+
+.inputField2 {
+    width: 60%;
+    background-color: #fff;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-family: 'Open Sans',sans-serif!important;
+    font-weight: 700;
+    padding: 0px 10px;
+    font-size: 18px;
+    color: #353b48;
+    border: 0;
+    cursor: not-allowed;
+}
+
+.closeButton {
+    margin-right: 1px;
+    font-weight: bold;
+    color: #222;
+    padding: 0px 14px;
+    cursor: pointer;
+}
+
+.btnClass {
+    width: 40%;
+    outline: 0;
+    border:0;
+    box-shadow: none;
+    height: 56px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.divider {
+    border: 1px solid #e3e8ef
+}
+
+.spanText {
+    font-family: 'Open Sans',sans-serif!important;
+    font-weight: 700;
+    font-size: 18px;
+    color: #000;
+    text-transform: uppercase;
+}
+
+.imgLogo {
+    width: 22px;
+    height: 22px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 8px;
+}
+
+.iconExpand {
+    width: auto;
+    color: #222;
+    font-size: 24px;
+    margin-left: 16px;
+    margin-right: 8px;
+}
+
+.valueContainer {
+    margin-top: 30px;
+    padding-top: 40px;
+    background-image: linear-gradient(to right,#2e2f3d 0%,#23222d 40%,#23222d 70%,#2e2f3d 100%);
+}
+
+.containerRate {
+    display: flex; 
+    flex-direction: row;
+    justify-content: center; 
+    align-content: center;
+}
+
+.sendRate, .receiveRate {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 30px
+}
+
+.textSend, .textReceive {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Open Sans";
+}
+
+.textSend {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Open Sans";
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.textReceive {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Open Sans";
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.rateDisplay {
+    color: #fff;
+    font-family: 'Open Sans',sans-serif!important;
+    font-weight: 400;
+    font-size: 48px;
+}
+
+
+.send {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.receive {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.iconLogo {
+    color: #fff;
+    font-family: 'Open Sans',sans-serif!important;
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 10px;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+
+.buttonContainer {
+    margin-top: 20px;
+}
+
+.checkBox {
+    margin-right: 10px;
+    font-size: 100px;
+}
+
+.textCond {
+    color: #abacb1;
+    font-size: 16px;
+}
+
+.powered {
+    margin-top: -30px;
+    padding-bottom: 30px;
+}
+
+.powerCond {
+    color: #abacb1;
+    font-size: 12px;
+    font-family: "Open Sans";
+    letter-spacing: 1.3px;
+}
+
+.buttonPart {
+    margin-top: 20px;
+}
+
+.buttonChange {
+    background-color: #736df8!important;
+    border: 0;
+    color: #fff!important;
+    font-size: 18px!important;
+    font-weight: 700!important;
+    padding: 14px 32px!important;
+    border-radius: 6px!important;
+    margin-bottom: 1rem;
+    margin-top: 12px;
+    letter-spacing: 1.3px;
+    cursor: pointer;
+}
+
+.buttonUncheck {
+    background-color: #282936!important;
+    border: 0;
+    color: #94949a!important;
+    font-size: 18px!important;
+    font-weight: 700!important;
+    padding: 14px 32px!important;
+    border-radius: 6px!important;
+    margin-bottom: 1rem;
+    margin-top: 12px;
+    letter-spacing: 1.3px;
+    cursor: no-drop;
+}
+
+.inputField:focus {
+    outline: none;
+}
+
+.buttonChange:hover {
+    background-color: #5c55f7;
+    box-shadow: 0 0 4px #736ef7;
+}
+
+.input-search-container {
+    width:100%;
+    border-bottom: 2px solid #f3f5f8;
+    background-color: #fff;
+    position: sticky;
+    padding: 16.5px 10px 16px;
+    top: 0;
+    z-index: 100;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    border-radius: 4px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.classInpu {
+    border: 0;
+    width: 100%;
+    font-size: 14px;
+    opacity: 1;
+    margin-left: 12px
+}
+
+.classInpu:focus{
+    outline: none;
+}
+
+.buttonClose {
+    border: 0;
+    outline: 0;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.drop {
+    z-index: 1;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.listItemCoins {
+    position: relative;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    cursor: pointer;
+    box-sizing: inherit;
+}
+
+.custom-options {
+    position: absolute;
+    display: block;
+    top: 68%;
+    margin-left: -2px;
+    border: 2px solid #394a6d;
+    border-top: 0;
+    background: #fff;
+    transition: all 1s;
+    opacity: 1;
+    visibility: visible;
+    z-index: 1;
+    width: 38.3%;
+    height: 200px;
+    overflow-y:auto;
+    overflow-x: hidden;
+}
+
+.custom-option {
+    position: relative;
+    display: block;
+    padding: 0 22px 0 22px;
+    font-size: 22px;
+    font-weight: 300;
+    color: #3b3b3b;
+    line-height: 60px;
+    cursor: pointer;
+    transition: all 0.5s;
+    cursor: pointer;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    padding: 16px;
+}
+
+.imgLogoCoin {
+    width: 20px;
+    height: 20px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: 0px 16px 0px 8px;
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+}
+
+.coinName {
+    font-family: 'Open Sans',sans-serif!important;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 16px;
+    color: #000;
+    text-transform: uppercase;
+    -ms-flex-preferred-size: 20%;
+    flex-basis: 20%;
+}
+
+.coinSymbol {
+    font-family: 'Open Sans',sans-serif!important;
+    font-weight: 400;
+    font-size: 16px;
+    margin-left: 8px;
+    margin-right: 8px;
+    color: #222;
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.lisItem {
+    width: 100%;
+    display: flex; 
+    flex-direction: row
+}
+
+.lisItemWhole {
+    padding: 16px 0px 16px;
+    cursor: pointer;
+}
+
+.lisItemWhole:hover {
+    background-color: #f4f5f8;
+}
